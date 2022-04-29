@@ -1,0 +1,666 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: whitesmoke;
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  background-image: linear-gradient(153deg, rgb(255, 255, 255) 20%, rgb(127, 127, 127) 80%);
+  padding-left: 60px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.header__marca {
+  width: 100px;
+  height: 100px;
+}
+
+.header__logo {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  padding: 5px;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 18px;
+  padding: 10px;
+  width: 100%;
+
+}
+
+.nav__link {
+  margin-left: 16px;
+  text-decoration: none;
+  list-style: none;
+  font-size: medium; 
+  color: rgb(0, 0, 0);
+  font-family: sans-serif
+}
+
+
+
+
+
+.section1{
+  background-image: url(../images/cathedralcove.png);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  font-family: cursive;
+}
+
+.section__titulo{
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 130px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.section__subtitulo{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.section__parrafo{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 500px;
+  font-size: 50px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+.aside{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  gap: 1rem;
+  border-top: 3px solid black;
+  width: 100%;
+}
+
+.aside__link{
+  padding: 20px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.aside__imagen{
+  width: 130px;
+  height: 110px;
+  border-radius: 25px;
+}
+
+
+
+
+.footer{
+  border-top: 2px solid black;
+  gap: 12px;
+  background-image: linear-gradient(426deg, rgb(255, 255, 255) 20%, rgb(127, 127, 127) 80%);
+}
+
+.footer__lista{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__imagen{
+  width: 40px;
+  height: 40px;
+  margin: 0 5px 0 5px;
+  border-radius: 10px;
+}
+
+.footer__titulo{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 
+  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.footer__derechos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px 20px 30px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+
+
+
+
+
+.australia{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightskyblue;
+}
+
+.australia__titulo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.australia__subtitulo{
+  padding-bottom: 20px;
+}
+
+.australia__video{
+  width: 1000px;
+  height: 600px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
+.contacto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: wheat;
+  min-height: 550px;
+}
+
+.contacto__h2{
+  padding-left: 200px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+.contacto__h3{
+  padding-left: 300px;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+.contacto__parrafo{
+  padding-left: 300px;
+  padding-bottom: 40px;
+  font-size: 25px;
+}
+
+.contacto__forma{
+  padding-left: 200px;
+  font-weight: bold;
+}
+
+.contacto__nombre{
+  padding-bottom: 10px;
+}
+
+.contacto__email{
+  padding-bottom: 10px;
+}
+
+.contacto__terminos{
+  padding-bottom: 20px;
+}  
+
+.contacto__imagen{
+  height: 500px;
+  width: 700px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.contacto__boton{
+  padding: 0 10px 0 10px;
+  border: 2px solid;
+}
+
+
+
+
+
+
+
+.nuevazelanda_trabajo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 40px;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.h1_titulo{
+  text-align: center;
+  padding: 30px 0 30px;
+  font-size: 40px;
+}
+
+.nuevazelanda__imagentrabajo{
+  width: 700px;
+  height: 500px;
+  border-radius: 10px; 
+}
+
+.nuevazelanda__lista{
+  padding-left: 70px;
+  list-style-position: inside;
+  list-style-type: square;
+  font-size: 15px;
+}
+
+.nuevazelanda__h2{
+  padding-left: 70px;
+  padding-bottom: 50px;
+}
+
+.nuevazelanda__visa{
+  padding-top: 10px;
+}
+
+.nuevazelanda__visa2{
+  padding-top: 50px;
+}
+
+.nuevazelanda__requisitos{
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+
+
+.nuevazelanda_rugby{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+  border-bottom: 1px solid black;
+  background-color: ivory;
+}
+
+.nuevazelanda__imagenrugby{
+  width: 600px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.nuevazelanda__contenido{
+  padding-left: 30px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nuevazelanda__h2rugby{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.nuevazelanda__p1{
+  padding-bottom: 20px;
+}
+
+.nuevazelanda__p2{
+  padding-bottom: 20px;
+}
+
+.nuevazelanda__link{
+  padding-left: 300px;
+}
+
+
+
+
+.nuevazelanda_lugares{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nuevazelandalugares{
+  background-color: wheat;
+}
+
+
+.nuevazelanda__h1lugares{
+  padding: 40px 0 0px 50px;
+  text-align: left;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.nuevazelanda__destinos{
+  align-self: flex-start;
+  padding: 20px 80px 20px 100px;
+  font-family: monospace;
+}
+
+.nuevazelanda__destinos2{
+  padding: 20px 0px 20px;
+  list-style: circle;
+  font-size: 20px;
+}
+
+.nuevazelanda__imagenlugares{
+  width: 320px;
+  height: 230px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.nuevazelanda__imagenlista{
+  padding: 110px;
+}
+
+
+
+
+
+
+
+.españa{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.españa__imagentrabajo{
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+  padding-right: 50px;
+}
+
+.españa__h2{
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.españa__visa{
+  padding-top: 10px;
+}
+
+.españa__visa2{
+  padding-top: 50px;
+}
+
+.españa__requisitos{
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.españa__lista{
+  padding-left: 180px;
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+
+.españacomida{
+  background-color: ivory;
+}
+
+.españa__imagencomida{
+  padding-left: 50px;
+}
+
+.españa__h2comida{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.españa__contenido{
+  padding-left: 30px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.españa__p1{
+  padding-bottom: 20px;
+}
+
+.españa__p2{
+  padding-bottom: 20px;
+}
+
+.españa__p3{
+  padding-bottom: 20px;
+}
+
+.españalugares{
+  background-color: wheat;
+}
+
+
+
+
+
+
+
+.galeria{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  padding: 30px;
+  border-bottom: 3px solid black;  
+}
+
+.galeria__h1{
+  text-align: center;
+  padding: 40px;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.galeria__imagen{ 
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.galerianuevazelanda{
+ background-color: lightgreen;
+}
+
+.galeriaespaña{
+  background-color: beige;
+}
+
+.galeriaaustralia{
+  background-color: darksalmon;
+}
+
+
+
+.header__burger{
+  display: none;
+}
+
+.nav_item-close{
+  display: none;
+  
+}
+
+
+@media screen and (max-width: 1023px) {
+
+  .header{
+    flex-direction: column;
+  }
+
+ 
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .header{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav{
+    display: none;
+  }
+
+  .nav__link{
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .header__burger{
+    display: block;
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .section1{
+    background-image: url(../images/cathedralcove.png);
+    background-size: 100% 100%;
+    height: 500px;
+  }
+
+  .section__titulo{
+    font-size: 50px;
+  }
+  
+  .section__subtitulo{
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  .section__parrafo{
+    font-size: 20px;
+    margin-top: 200px;   
+  }
+
+  .aside{
+    display: block;
+  }
+
+  .aside__div{
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .aside__titulo{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .aside__imagen{
+    width: 100px;
+    height: 80px;
+  }
+
+  .footer__derechos{
+    flex-direction: column-reverse;
+  }
+  
+  .footer__parrafo{
+    padding-top: 10px;
+  }
+
+  #lateral{
+    display: block;
+    width: 40%;
+    height: 50vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.88);
+    transition: right 1s;
+    padding-top: 20px ;
+    text-align: center;
+    
+  }
+
+  #lateral:target{
+    right: 0;
+  }
+
+  .nav__list{
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 1.5rem;
+    
+  }
+
+  .nav_item-close{
+    display: block;
+    
+  }
+}
