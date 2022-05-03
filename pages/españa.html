@@ -9,15 +9,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Rubik+Microbe&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header class="header">
         <a class="header__marca" href="../index.html"> 
             <img class="header__logo" src="../images/logo2.png" alt="logotipo">
-        </a>   
+        </a>  
+        
+        <a href="#lateral" class="header__burger">
+            <span class="jam jam-menu"></span>
+        </a>
 
-        <nav class="nav">
+        <nav class="nav" id="lateral">
             <ul class="nav__list">
                 <li class="nav_item"><a class="nav__link" href="../index.html">Inicio</a></li>
                 <li class="nav_item"><a class="nav__link" href="./nuevazelanda.html">Nueva Zelanda</a></li>
@@ -25,6 +32,7 @@
                 <li class="nav_item"><a class="nav__link" href="./australia.html">Australia</a></li>
                 <li class="nav_item"><a class="nav__link" href="./galeria.html">Galeria</a></li>
                 <li class="nav_item"><a class="nav__link" href="./contacto.html">Contacto</a></li>
+                <li class="nav_item nav_item-close"><a class="nav__link" href="#"><span class="jam jam-close-circle"></span></a></li>
             </ul>
         </nav>     
     </header>
@@ -43,7 +51,7 @@
                                 <li class="españa__requisitos">Con Pasaporte Argentino ( Mas info <a  href="https://www.yomeanimo.com/guias-working-holiday/espana" target="_blank">AQUI</a> )</li>
                             </ul>
                         
-                        <li class="españa__visa2">Pasaporte de la Comunidad Europea</li>
+                        <li class="españa__visa">Pasaporte de la Comunidad Europea</li>
                             <ul>
                                 <li class="españa__requisitos">Cualquier pais que se encuentre bajo el tratado europeo</li>
                             </ul>
@@ -75,7 +83,6 @@
                    Encontramos los vinos Ribera del Duero, con gran cuerpo, agresivos al paladar y a veces asperos. 
                    Y vinos Rioja, los cuales son el camino contrario del anterior, suaves de cuerpo y muy amables al paladar.</p>
             </div>
-            
         </section>
 
 

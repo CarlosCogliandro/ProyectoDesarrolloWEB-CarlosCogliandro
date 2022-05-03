@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Rubik+Microbe&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -17,7 +20,11 @@
             <img class="header__logo" src="../images/logo2.png" alt="logotipo">
         </a>   
 
-        <nav class="nav">
+        <a href="#lateral" class="header__burger">
+            <span class="jam jam-menu"></span>
+        </a>
+
+        <nav class="nav" id="lateral">
             <ul class="nav__list">
                 <li class="nav_item"><a class="nav__link" href="../index.html">Inicio</a></li>
                 <li class="nav_item"><a class="nav__link" href="./nuevazelanda.html">Nueva Zelanda</a></li>
@@ -25,6 +32,7 @@
                 <li class="nav_item"><a class="nav__link" href="./australia.html">Australia</a></li>
                 <li class="nav_item"><a class="nav__link" href="./galeria.html">Galeria</a></li>
                 <li class="nav_item"><a class="nav__link" href="./contacto.html">Contacto</a></li>
+                <li class="nav_item nav_item-close"><a class="nav__link" href="#"><span class="jam jam-close-circle"></span></a></li>
             </ul>
         </nav>     
     </header>
