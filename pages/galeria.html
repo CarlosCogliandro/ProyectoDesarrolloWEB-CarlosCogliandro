@@ -12,10 +12,50 @@
 
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
 
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header class="header">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand header__marca" href="../index.html"> <img class="header__logo" src="../images/logo2.png" alt="logotipo"></a>
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Destinos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="../pages/nuevazelanda.html">Nueva Zelanda</a></li>
+                  <li><a class="dropdown-item" href="../pages/españa.html">España</a></li>
+                  <li><a class="dropdown-item" href="../pages/australia.html">Australia</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- <header class="header">
         <a class="header__marca" href="../index.html"> 
             <img class="header__logo" src="../images/logo2.png" alt="logotipo">
         </a>   
@@ -35,13 +75,40 @@
                 <li class="nav_item nav_item-close"><a class="nav__link" href="#"><span class="jam jam-close-circle"></span></a></li>
             </ul>
         </nav>     
-    </header>
+    </header> -->
 
 <main>
+
     <section class="galerianuevazelanda">
         <h1 class="galeria__h1">Nueva Zelanda: "Tierra del Rugby y Kiwis"</h1>
        
-            <div class="galeria">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4">
+                <img class="galeria__imagen" src="../images/galeria/coromandel.png" alt="coromandel">
+                <img class="galeria__imagen" src="../images/galeria/auckland.png" alt="auckland">
+                <img class="galeria__imagen" src="../images/galeria/Tongariro.png" alt="tongariro">
+                <img class="galeria__imagen" src="../images/galeria/taupo.png" alt="taupo">
+            </div>
+            <div class="col-12 col-md-4">
+              <img class="galeria__imagen" src="../images/galeria/picton.png" alt="picton">
+                <img class="galeria__imagen" src="../images/galeria/Christchurch.png" alt="christchurch">
+                <img class="galeria__imagen" src="../images/galeria/queenstown.png" alt="queenstown">
+                <img class="galeria__imagen" src="../images/galeria/dunedin.png" alt="dunedin">
+            </div>
+            <div class="col-12 col-md-4">
+                <img class="galeria__imagen" src="../images/galeria/foxglaciar.png" alt="foxglaciar">
+                <img class="galeria__imagen" src="../images/galeria/blenheim.png" alt="blenheim">
+                <img class="galeria__imagen" src="../images/galeria/abeltasman.png" alt="abeltasman">
+                <img class="galeria__imagen" src="../images/galeria/tauranga.png" alt="tauranga">
+            </div>
+          </div>
+        </div>
+
+
+
+            <!-- <div class="galeria">
                 <img class="galeria__imagen" src="../images/galeria/coromandel.png" alt="coromandel">
                 <img class="galeria__imagen" src="../images/galeria/auckland.png" alt="auckland">
                 <img class="galeria__imagen" src="../images/galeria/Tongariro.png" alt="tongariro">
@@ -54,13 +121,38 @@
                 <img class="galeria__imagen" src="../images/galeria/blenheim.png" alt="blenheim">
                 <img class="galeria__imagen" src="../images/galeria/abeltasman.png" alt="abeltasman">
                 <img class="galeria__imagen" src="../images/galeria/tauranga.png" alt="tauranga">
-            </div>
+            </div> -->
     </section>
+
 
     <section class="galeriaespaña">
         <h1 class="galeria__h1">España: "Miticas paellas y corridas de toros"</h1>
         
-        <div class="galeria">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <img class="galeria__imagen" src="../images/galeria/barcelona.png" alt="barcelona">
+              <img class="galeria__imagen" src="../images/galeria/madrid.png" alt="madrid">
+              <img class="galeria__imagen" src="../images/galeria/marbella.png" alt="marbella">
+              <img class="galeria__imagen" src="../images/galeria/granada.png" alt="granada">
+            </div>
+            <div class="col-12 col-md-4">
+              <img class="galeria__imagen" src="../images/galeria/malaga.png" alt="malaga">
+              <img class="galeria__imagen" src="../images/galeria/ronda.png" alt="ronda">
+              <img class="galeria__imagen" src="../images/galeria/tarifa.png" alt="tarifa">
+              <img class="galeria__imagen" src="../images/galeria/gibraltar.png" alt="gibraltar">
+            </div>
+            <div class="col-12 col-md-4">
+              <img class="galeria__imagen" src="../images/galeria/bilbao.png" alt="bilbao">
+              <img class="galeria__imagen" src="../images/galeria/zaragoza.png" alt="zaragoza">
+              <img class="galeria__imagen" src="../images/galeria/rutuadelcares.png" alt="rutadelcares">
+              <img class="galeria__imagen" src="../images/galeria/sevilla.png" alt="sevilla">
+            </div>
+          </div>
+        </div>
+
+
+        <!-- <div class="galeria">
             <img class="galeria__imagen" src="../images/galeria/barcelona.png" alt="barcelona">
             <img class="galeria__imagen" src="../images/galeria/madrid.png" alt="madrid">
             <img class="galeria__imagen" src="../images/galeria/marbella.png" alt="marbella">
@@ -73,7 +165,7 @@
             <img class="galeria__imagen" src="../images/galeria/zaragoza.png" alt="zaragoza">
             <img class="galeria__imagen" src="../images/galeria/rutuadelcares.png" alt="rutadelcares">
             <img class="galeria__imagen" src="../images/galeria/sevilla.png" alt="sevilla">
-        </div>
+        </div> -->
     </section>
 
     <section class="galeriaaustralia">
@@ -110,5 +202,8 @@
             <p>Todos los derechos reservados.</p>
         </div>
     </footer>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
