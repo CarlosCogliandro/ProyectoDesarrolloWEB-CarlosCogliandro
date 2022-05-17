@@ -1,12 +1,8 @@
 /* 
 como creo una variableen SASS::
-
 sintaxis de como escribir una variable
-
 $mivariable1: valorReutilizable;
 */
-
-
 
 /*  
     $color-principal: orange;
@@ -14,17 +10,9 @@ $mivariable1: valorReutilizable;
     etc...
 */
 
-
-
-
-
 /* se utiliza para variables que se repiten en muchos lados de nuestra pagina, como por ejemplo colores de las secciones, fuentes, bordes */
 
-
 /*esto lo cambio en las hojas de scss (por ejemplo _pagina-galeria) de la siguieinte manera*/
-
-
-
 
 /* 
 .header{
@@ -35,3 +23,5 @@ $mivariable1: valorReutilizable;
     color: $color-principal;
 }
 */
+
+$font_family: Georgia, 'Times New Roman', Times, serif;

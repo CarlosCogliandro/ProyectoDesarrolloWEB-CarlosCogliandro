@@ -25,7 +25,7 @@
     text-align: center;
     padding: 40px;
     font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: $font_family;
   }
 
   .h1_titulo:hover{
@@ -86,12 +86,13 @@
   .nuevazelanda__contenido{
     padding: 20px;
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: $font_family;
   }
   
   .nuevazelanda__h2rugby{
     text-align: center;
     padding-bottom: 50px;
+    font-family: $font_family;
   }
   
   .nuevazelanda__p1{

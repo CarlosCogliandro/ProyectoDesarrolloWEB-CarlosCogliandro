@@ -4,9 +4,7 @@
 /* es importante el orden de importacion */
 /* 
 como creo una variableen SASS::
-
 sintaxis de como escribir una variable
-
 $mivariable1: valorReutilizable;
 */
 /*  
@@ -205,7 +203,7 @@ $mivariable1: valorReutilizable;
 }
 
 .australia__titulo {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 50px;
   padding-top: 20px;
   padding-bottom: 40px;
@@ -302,14 +300,14 @@ $mivariable1: valorReutilizable;
   padding-top: 30px;
   padding-bottom: 50px;
   font-size: 15px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .h1_titulo {
   text-align: center;
   padding: 40px;
   font-size: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .h1_titulo:hover {
@@ -365,7 +363,7 @@ $mivariable1: valorReutilizable;
 .españa__contenido {
   padding: 20px;
   font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .españa__p1 {
@@ -448,7 +446,7 @@ $mivariable1: valorReutilizable;
   text-align: center;
   padding: 40px;
   font-size: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .h1_titulo:hover {
@@ -500,12 +498,13 @@ $mivariable1: valorReutilizable;
 .nuevazelanda__contenido {
   padding: 20px;
   font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .nuevazelanda__h2rugby {
   text-align: center;
   padding-bottom: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .nuevazelanda__p1 {
