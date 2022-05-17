@@ -1,0 +1,47 @@
+/* pagina contacto */
+  
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .contacto__h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+  
+  .contacto__h3{
+    font-size: 27px;
+    padding-bottom: 15px;
+  }
+  
+  .contacto__parrafo{
+    font-size: 25px;
+    padding-bottom: 30px;
+  }
+  
+  .contacto__nombre{
+    padding-bottom: 10px;
+  }
+  
+  .contacto__email{
+    padding-bottom: 10px;
+  }
+  
+  .contacto__boton{
+    padding-top: 15px;
+    text-align: center;
+  }
+  
+  .contacto__imagen{
+    width: 650px;
+    height: 400px;
+  }
+  
+  .boton-submit{
+    padding: 15px;
+    text-align: center;
+  }

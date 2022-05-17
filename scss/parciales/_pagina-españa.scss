@@ -1,0 +1,108 @@
+/* pagina españa */
+  
+  
+.españa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .h1_titulo{
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .h1_titulo:hover{
+    color: crimson;
+  }
+
+  .españa__imagentrabajo{
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  .españa__h2{
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  
+  .españa__visa{
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  
+  
+  .españa__requisitos{
+    padding-top: 10px;
+  }
+  
+  .españa__lista{
+    list-style-position: inside;
+    list-style-type: square;
+  }
+  
+  
+  
+  .españacomida{
+    
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .españa__imagencomida{
+    padding-left: 50px;
+    transition: 1s;
+  }
+  
+  .españa__imagencomida:hover{
+    transform: skew(2deg);
+  }
+
+  .españa__h2comida{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .españa__contenido{
+    padding: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .españa__p1{
+    padding-bottom: 20px;
+  }
+  
+  .españa__p2{
+    padding-bottom: 20px;
+  }
+  
+  .españa__p3{
+    padding-bottom: 20px;
+  }
+
+
+
+
+  .nuevazelanda__imagenlugares{
+    width: 320px;
+    height: 230px;
+    border-radius: 5px;
+    margin: 2px;
+    transition: 1s;
+  }
+
+  .nuevazelanda__imagenlugares:hover{
+    transform: scale(1.5);
+  }

@@ -1,0 +1,161 @@
+/* pagina nueva zelanda */
+  
+  
+.nuevazelandatrabajo{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+  }
+  
+  .nuevazelanda_trabajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .nuevazelanda__imagentrabajo{
+    width: 750px;
+    height: 450px;
+    border-radius: 10px;
+  }
+  
+  .h1_titulo{
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .h1_titulo:hover{
+    color: crimson
+  }
+  
+  .nuevazelanda__h2{
+    padding-bottom: 10px;
+  }
+  
+  .nuevazelanda__lista{
+    list-style-position: inside;
+    list-style-type: square;
+    font-size: 15px;
+    padding: 10px;
+  }
+  
+  .nuevazelanda__visa{
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  
+  .nuevazelanda__requisitos{
+    list-style-position: inside;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .nuevazelanda_rugby{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    border-bottom: 1px solid black;
+    /* background-color: ivory; */
+  }
+  
+  .nuevazelanda__imagenrugby{
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    transition: 1s;
+  }
+  
+  .nuevazelanda__imagenrugby:hover{
+    transform: skew(2deg);
+  }
+
+
+  .nuevazelanda__contenido{
+    padding: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .nuevazelanda__h2rugby{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .nuevazelanda__p1{
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  .nuevazelanda__p2{
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  
+  
+  .nuevazelanda_lugares{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* .nuevazelandalugares{
+    background-color: wheat;
+  } */
+  
+  
+  .nuevazelanda__h1lugares{
+    padding-top: 40px;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .nuevazelanda__destinos{
+    align-self: flex-start;
+    padding: 20px 80px 20px 100px;
+    font-family: monospace;
+  }
+  
+  .nuevazelanda__destinos2{
+    padding: 20px 0px 20px;
+    list-style: circle;
+    font-size: 20px;
+  }
+  
+  .nuevazelanda__imagenlugares{
+    width: 320px;
+    height: 230px;
+    border-radius: 5px;
+    margin: 2px;
+    transition: 1s;
+  }
+
+  .nuevazelanda__imagenlugares:hover{
+    transform: scale(1.5);
+  }
+
+  
+  .nuevazelanda__imagenlista{
+    padding: 110px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }

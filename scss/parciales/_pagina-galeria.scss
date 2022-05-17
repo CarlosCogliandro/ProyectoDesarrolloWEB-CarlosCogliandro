@@ -1,0 +1,33 @@
+/* .galeria{ */
+   
+/* .galeria{ 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    padding: 30px;
+    border-bottom: 3px solid black;  
+  } */
+  
+  .galeria__h1{
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .galeria__imagen{ 
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .galerianuevazelanda{
+    border-bottom: 1px solid black;
+  }
+  
+  
+  .galeriaespaña{
+    border-bottom: 1px solid black;
+  }
