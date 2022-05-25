@@ -2,6 +2,163 @@
 /* este es mi archivo principal de SASS */
 /* importando todos mis archivos de mis estilos */
 /* es importante el orden de importacion */
+/* puedo aplicar css que ya hemos visto */
+.sass-2 {
+  color: navy;
+}
+
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.col-5 {
+  width: 41.66667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33333%;
+}
+
+.col-8 {
+  width: 66.66667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33333%;
+}
+
+.col-11 {
+  width: 91.66667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/* each */
+blue {
+  background-color: blue;
+}
+
+yellow {
+  background-color: yellow;
+}
+
+black {
+  background-color: black;
+}
+
+.btn-twitter {
+  background-color: #55acee;
+}
+
+.btn-facebook {
+  background-color: #3a5795;
+}
+
+.btn-instagram {
+  background-color: #c25e30;
+}
+
+.btn-whatsapp {
+  background-color: green;
+}
+
+.btn-otro {
+  background-color: orange;
+}
+
+/* otra forma de usar un mapa */
+.estilo {
+  background-color: #3673D9;
+  text-align: center;
+  padding: 1rem;
+  font-size: 35px;
+}
+
+/* EXTEND */
+.boton, .boton--aceptar, .boton--cancelar {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.boton--aceptar {
+  background-color: green;
+  color: yellow;
+}
+
+.boton--cancelar {
+  background-color: red;
+  color: yellow;
+}
+
+/* MIXINS */
+/* declaramos primero el mixing*/
+/* @mixin nombremixing($prametro1, $parametro2, N....) {....} */
+.box-small {
+  height: 100px;
+  width: 100px;
+  background-color: navy;
+}
+
+.box-medium {
+  height: 200px;
+  width: 200px;
+}
+
+.box-large {
+  height: 500px;
+  width: 500px;
+  background-color: orange;
+}
+
+.premium {
+  /* uso el numbre que quiero */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ayuda {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.spotify {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 /* 
 como creo una variableen SASS::
 sintaxis de como escribir una variable
@@ -411,6 +568,11 @@ $mivariable1: valorReutilizable;
   height: 200px;
   padding: 10px;
   border-radius: 15px;
+  transition: 1s;
+}
+
+.galeria__imagen:hover {
+  transform: scale(1.3);
 }
 
 .galerianuevazelanda {
@@ -419,6 +581,26 @@ $mivariable1: valorReutilizable;
 
 .galeriaespaña {
   border-bottom: 1px solid black;
+}
+
+.galeria__h2 {
+  color: red;
+  transition: 1s;
+  animation-name: proximamente;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes proximamente {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* pagina nueva zelanda */

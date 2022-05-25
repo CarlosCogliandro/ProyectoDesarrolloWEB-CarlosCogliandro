@@ -21,8 +21,13 @@
     height: 200px;
     padding: 10px;
     border-radius: 15px;
+    transition: 1s;
   }
-  
+
+  .galeria__imagen:hover{
+    transform: scale(1.3);
+  }
+
   .galerianuevazelanda{
     border-bottom: 1px solid black;
   }
@@ -31,3 +36,23 @@
   .galeriaespaña{
     border-bottom: 1px solid black;
   }
+
+  .galeria__h2{
+    color: red;
+    transition: 1s;
+    animation-name: proximamente;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes proximamente {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,6 @@
+Aplicacion de SEO para la entrega del desafio 20/05:
+
+Meta Keywords en todas las paginas
+Meta Description en todas las paginas
+Modificacion de los Title en todas las paginas
+compresion/reduccion de las imagenes mediante la pagina www.tinypng.com
