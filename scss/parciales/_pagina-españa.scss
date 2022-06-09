@@ -28,6 +28,7 @@
     width: 700px;
     height: 500px;
     border-radius: 10px;
+    box-shadow: 10px 10px rgb(89, 78, 78);
   }
   
   .españa__h2{
@@ -58,10 +59,13 @@
     flex-direction: row;
     padding-top: 50px;
     padding-bottom: 50px;
+    border-bottom: 1px solid black ;
   }
   
   .españa__imagencomida{
-    padding-left: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(89, 78, 78);
     transition: 1s;
   }
   

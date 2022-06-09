@@ -51,9 +51,6 @@
       
     }
   
-    // #lateral:target{
-    //   right: 0;
-    // }
   
     .nav__list{
       flex-direction: column;
@@ -330,10 +327,17 @@
   }
   
   .nuevazelanda__imagenlugares{
-   width: 300px;
-   height: 250px;
+   width: 290px;
+   height: 200px;
+   transition: 1s;
   }
   
+  .nuevazelanda__imagenlugares:hover{
+    transform:scale(1.1);
+  }
+
+
+
   .españa__h2{
    font-size: 15px;
    padding-bottom: 15px;
@@ -383,15 +387,15 @@
   }
   
   .contacto__h2{
-  font-size: 18px;
+  font-size: 17px;
   }
   
   .contacto__h3{
-    font-size: 17px;
+    font-size: 16px;
   }
   
   .contacto__parrafo{
-    font-size: 16px;
+    font-size: 15px;
   }
   
   .contacto__boton{
@@ -420,16 +424,14 @@
     padding-bottom: 20px;
   }
   
-  .galeria{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+  .galeria__imagen{
+    margin: auto;
+    width: 100%;
+    transition: 1s;
   }
-  
-  
-  
-  
-  
-  
+  .galeria__imagen:hover{
+    transform: scale(1.1);
+  }
+
   
   }
